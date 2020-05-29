@@ -1,5 +1,8 @@
 package pacman
 
+// stage is the gamelayout.
+//each character represents and integer w0,w1...w24,p,q,r,..which corresponds to an image,
+//this is how we create an stage for our game
 type stage struct {
 	matrix []string
 }
